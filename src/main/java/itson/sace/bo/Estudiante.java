@@ -7,7 +7,6 @@ import itson.sace.ed.ArregloDinamico;
 /**
  * Clase que representa a un Estudiante dentro del sistema escolar.
  * Contiene los datos personales y la estructura para almacenar sus calificaciones.
- * Cumple con los requerimientos de datos del punto 3.1 inciso a) del proyecto[cite: 31].
  * @author Vladimir Ivan Mendoza Baypoli
  * @author Oscar Adrian Castan Lopez
  */
@@ -32,7 +31,7 @@ public class Estudiante {
     
     /** * Estructura personalizada para almacenar las calificaciones.
      * Se usa un Arreglo Dinámico en lugar de un array simple o ArrayList 
-     * para cumplir con el Requerimiento 1 (Generalidades)[cite: 17].
+     * para cumplir con el Requerimiento 1.
      */
     ArregloDinamico calificaciones;
 
@@ -53,7 +52,7 @@ public class Estudiante {
         this.domicilio = domicilio;
         
         // IMPORTANTE: Inicializamos el arreglo dinámico vacío.
-        // Si no hacemos esto, la variable 'calificaciones' sería null y daría error al intentar agregar notas[cite: 47].
+        // Si no hacemos esto, la variable 'calificaciones' sería null y daría error al intentar agregar notas.
         this.calificaciones = new ArregloDinamico();
     }
     

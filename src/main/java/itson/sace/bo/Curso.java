@@ -8,7 +8,7 @@ import itson.sace.ed.ListaEnlazada;
  * Clase que representa una materia o curso dentro del sistema escolar.
  * Esta clase actúa como un contenedor que agrupa la información del curso
  * y la lista de estudiantes que se han inscrito en él.
- * * Cumple con la gestión de cursos y el manejo de inscripciones.
+ * Cumple con la gestión de cursos y el manejo de inscripciones.
  * @author Vladimir Ivan Mendoza Baypoli
  * @author Oscar Adrian Castan Lopez
  */
@@ -25,8 +25,8 @@ public class Curso {
     String nombre;
 
     /** * Estructura de datos personalizada para manejar los inscritos.
-     * * IMPORTANTE: Cumple con el Requerimiento 3.3 del proyecto:
-     * "Cada curso debe mantener una lista enlazada simple de estudiantes inscritos"[cite: 43].
+     * Cumple con el Requerimiento 3.3 del proyecto:
+     * "Cada curso debe mantener una lista enlazada simple de estudiantes inscritos".
      */
     ListaEnlazada inscritos;
 

@@ -4,7 +4,7 @@ package itson.sace.ed; // Paquete de Estructuras de Datos.
  * Implementación manual de una Pila (Stack) dinámica.
  * Esta estructura sigue el principio LIFO (Last In, First Out - Último en entrar, Primero en salir).
  * 
- * "El sistema debe mantener una pila donde se registren las acciones importantes del usuario"[cite: 55].
+ * "El sistema debe mantener una pila donde se registren las acciones importantes del usuario".
  * @author Vladimir Ivan Mendoza Baypoli
  * @author Oscar Adrian Castan Lopez
  */

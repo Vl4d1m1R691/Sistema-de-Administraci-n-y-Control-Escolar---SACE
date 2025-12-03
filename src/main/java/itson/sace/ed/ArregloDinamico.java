@@ -4,7 +4,7 @@ package itson.sace.ed; // Paquete de Estructuras de Datos (ed)
  * Implementación personalizada de un arreglo dinámico.
  * Esta clase sustituye el uso de java.util.ArrayList cumpliendo con la restricción
  * del proyecto de no utilizar estructuras de datos prefabricadas de Java.
- * * Funciona manejando internamente un arreglo nativo (Object[]) que crece
+ * Funciona manejando internamente un arreglo nativo (Object[]) que crece
  * automáticamente cuando se queda sin espacio.
  * @author Vladimir Ivan Mendoza Baypoli
  * @author Oscar Adrian Castan Lopez
