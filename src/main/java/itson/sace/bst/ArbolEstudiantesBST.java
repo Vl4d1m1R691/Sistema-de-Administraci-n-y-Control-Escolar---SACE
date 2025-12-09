@@ -72,16 +72,13 @@ public class ArbolEstudiantesBST {
         }
     }
 
-    public void estudiantesInOrder(Estudiante e) {
-        if (e == null) {
-            System.out.println("No se encontró al estudiante");
+    public void inOrden(NodoBST nodo) {
+        if (raiz != null) {
+            inOrden(raiz.izq);
+            System.out.print(raiz.dato + "");
+            inOrden(raiz.der);
         }
-        
-        
-        
-        
     }
 
-    
 
 }
