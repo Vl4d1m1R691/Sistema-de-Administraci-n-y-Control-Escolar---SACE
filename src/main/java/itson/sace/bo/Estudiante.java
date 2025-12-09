@@ -15,7 +15,7 @@ public class Estudiante {
     // --- Atributos del Estudiante ---
     
     /** Identificador único del estudiante (se usa para ordenar en el BST). */
-    int matricula;
+   public int matricula;
     
     /** Nombre completo del estudiante. */
     String nombre;
