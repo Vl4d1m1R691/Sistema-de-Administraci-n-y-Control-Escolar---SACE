@@ -5,11 +5,12 @@
 package itson.sace.bst;
 
 import itson.sace.bo.Estudiante;
+import itson.sace.ed.ArregloDinamico;
 import java.util.List;
 
 /**
- *
- * @author ramuk
+ * @author Vladimir Ivan Mendoza Baypoli
+ * @author Oscar Adrian Castan Lopez
  */
 public class ArbolEstudiantesBST {
 
@@ -80,5 +81,17 @@ public class ArbolEstudiantesBST {
         }
     }
 
+    public void llenarArreglo(ArregloDinamico arreglo){
+        llenarArregloRec(raiz, arreglo);
+    }
+    
+    public void llenarArregloRec(NodoBST actual, ArregloDinamico arreglo){
+        if(actual!= null){
+            llenarArregloRec(actual.izq,arreglo);
+            arreglo.agregar(actual.dato);
+            llenarArregloRec(actual.der,arreglo); 
+        }
+    }
+    
 
 }
